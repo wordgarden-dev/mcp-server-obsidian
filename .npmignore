@@ -1,0 +1,27 @@
+# Development artifacts
+*.md
+!README.md
+!SECURITY.md
+
+# Source TypeScript (only ship compiled JS)
+src/
+tsconfig.json
+
+# Tests
+tests/
+*.test.ts
+*.test.js
+
+# Development workflows
+.github/
+.vscode/
+
+# Build artifacts
+*.tgz
+
+# Examples (keep these actually)
+!examples/
+
+# Git
+.git/
+.gitignore
